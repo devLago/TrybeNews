@@ -7,3 +7,10 @@ body {
   background-color: #E6E8FA;
   margin-top: 300px;
 }
+
+.load {
+  width: 300px;
+  font-size: 30px;
+  margin: 0 auto;
+  color: red;
+}

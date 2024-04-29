@@ -11,7 +11,7 @@ import Menu from "./components/menu";
 function App() {
   const { data, loading, error } = useContext(DataContext);
 
-if (loading) return (<div>Loading...</div>);
+if (loading) return (<div className="load">Loading...</div>);
 if (error) return (<div>{error}</div>);
   return (
     <div>
