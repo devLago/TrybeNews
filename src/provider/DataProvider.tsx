@@ -44,7 +44,7 @@ const fetchDataForSection = async (section: string) => {
     url = 'http://servicodados.ibge.gov.br/api/v3/noticias/';
   } 
   
-  if (section === 'Favoritas') {
+  if (section === 'Favoritas' && favoritos.length > 0) {
     setLoading(true);
     setData(favoritos);
     setLoading(false);
