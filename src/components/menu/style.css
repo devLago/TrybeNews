@@ -1,0 +1,20 @@
+.secao-menu {
+	margin-top: 50px;
+}
+
+.container-menu {
+  width: 70%;
+  margin: 60px auto;
+	display: flex;
+	align-items: center;
+	justify-content: initial;
+	gap: 30px; 
+}
+
+h3 {
+	font-size: 35px;
+}
+
+h3:hover {
+	border-bottom: 1px solid black;
+}
